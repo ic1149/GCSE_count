@@ -3,7 +3,7 @@ function sleep(ms) {
 }
 
 async function startcounting() {
-  const date1 = new Date('5/4/2025');
+  const date1 = new Date('5/4/2026');
   const date2 = new Date();
   const diffTime = Math.abs(date2 - date1);
   const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24))-1;
@@ -35,7 +35,7 @@ async function startextra(ddiff) {
 
 
 async function endcounting() {
-  const date1 = new Date('6/26/2025');
+  const date1 = new Date('6/26/2026');
   const date2 = new Date();
   const diffTime = Math.abs(date2 - date1);
   const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
